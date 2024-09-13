@@ -457,7 +457,7 @@ ul {
 
 .descripcion{
   position: relative;
-  bottom: 12rem;
+  bottom: 9rem;
   padding-left: 0;
   font-size: x-large;
 }
@@ -513,11 +513,13 @@ nav a:nth-child(4):hover~span{
   height: 5rem;
   position: fixed;
   right: 6%;
+  z-index: 2;
 }
 
 .visible{
   opacity: 1;
   visibility: visible;
+  transition: all 1s;
 }
 
 .sectionTrabajos{
@@ -534,7 +536,7 @@ nav a:nth-child(4):hover~span{
 .divBotones {
   display: flex;
   justify-content: space-around;
-  padding: 20px 0px 0px 36px;
+  padding: 20px 0px 0px 0px;
   gap: 0px;
 }
 
@@ -562,4 +564,9 @@ body{
 main{
   width: 100%;
 }
+
+.card__description {
+  font-size: 16px;
+}
+
 }
