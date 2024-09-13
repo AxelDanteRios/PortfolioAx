@@ -570,3 +570,88 @@ main{
 }
 
 }
+
+
+
+@media (min-width: 1025px) and (max-width: 1280px){
+  .divBotones{
+    padding: 21px 0px 0px 40px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+  .divBtn {
+    width: 26%;
+  }
+
+  .divBotones {
+  padding: 20px 0px 0px 0px;
+}
+.divImg {
+  width: 52%;
+  height: 33.5rem;
+  position: relative;
+  top: 10rem;
+}
+
+.hamburguesa{
+  display: flex;
+  color:#585757;
+  width: 5rem;
+  height: 5rem;
+  position: fixed;
+  right: 6%;
+  z-index: 2;
+}
+
+nav {
+  position: fixed;
+  opacity: 0;
+  visibility: hidden;
+  right: 6rem;
+  display: flex;
+  flex-direction: column;
+  width: 19rem;
+  height: 23rem;
+}
+
+nav a{
+  height: 6rem;
+  place-content: center
+}
+nav span{
+  width: 100%;
+    height: 25%;
+}
+
+nav a:nth-child(1):hover~span{
+ top: 0px;
+}
+nav a:nth-child(2):hover~span{
+  top: 94px;
+        left: 0px;
+    }
+nav a:nth-child(3):hover~span{
+  top: 185px;
+  left: 0px;
+}
+nav a:nth-child(4):hover~span{
+  top: 275px;
+  left: 0px;
+}
+
+
+.visible{
+  opacity: 1;
+  visibility: visible;
+  transition: all 1s;
+}
+
+
+.descripcion{
+  position: relative;
+    top: 6rem;
+}
+
+
+}
