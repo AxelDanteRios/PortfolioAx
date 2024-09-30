@@ -448,8 +448,8 @@ ul {
     .sectionInicio{
     display: flex;
     height: 42rem;
-    flex-direction: row-reverse;
-    width: 99%;
+    flex-direction: column-reverse;
+    width: 100%;
     justify-content: space-between;
     padding-bottom: 70px;
     align-items: flex-end;
@@ -457,7 +457,7 @@ ul {
 
 .descripcion{
   position: relative;
-  bottom: 9rem;
+  top: 2rem;
   padding-left: 0;
   font-size: x-large;
 }
@@ -465,21 +465,26 @@ ul {
 .divImg {
     display: flex;
     justify-content: end;
-    width: 44%;
+    width: 70%;
     position: relative;
     right: 0px;
     filter: contrast(1.10) grayscale(100%);
     height: 23.5rem;
+    bottom: 0%;
+}
+.divImg img{
+  width: 100%;
 }
 
 nav {
     position: fixed;
+    top: 65px;
     opacity: 0;
     visibility: hidden;
-    right: 6rem;
+    right: 3rem;
     display: flex;
     flex-direction: column;
-    width: 19rem;
+    width: 24rem;
     height: 23rem;
 }
 nav a{
@@ -512,7 +517,7 @@ nav a:nth-child(4):hover~span{
   width: 5rem;
   height: 5rem;
   position: fixed;
-  right: 6%;
+  right: 8%;
   z-index: 2;
 }
 
@@ -554,7 +559,7 @@ width: 80%;
   width: 100%;
 }
 #sobreMi p {
-  width: 100%;
+  width: 95%;
   font-size: medium;
   text-align: center;
 }
