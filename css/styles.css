@@ -451,7 +451,8 @@ ul {
     flex-direction: column-reverse;
     width: 100%;
     justify-content: space-between;
-    padding-bottom: 70px;
+    padding-bottom: 30px;
+    padding-top: 30px;
     align-items: flex-end;
 }
 
@@ -481,7 +482,7 @@ nav {
     top: 65px;
     opacity: 0;
     visibility: hidden;
-    right: 3rem;
+    right: 2rem;
     display: flex;
     flex-direction: column;
     width: 24rem;
