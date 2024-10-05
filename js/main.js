@@ -122,7 +122,11 @@ sonido_offMorir.addEventListener("click",()=>{
 
 let nav = document.querySelector("#navbar")
 let menuHam = document.querySelector("#ham")
+let main = document.querySelector("main");
+let foot = document.querySelector("footer");
 
 menuHam.addEventListener("click",()=>{
     nav.classList.toggle("visible")
+    main.classList.toggle("mainOpa")
+    foot.classList.toggle("mainOpa")
 })
